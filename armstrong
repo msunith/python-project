@@ -1,0 +1,10 @@
+n=int(input("Enter a number\n"))
+l=list(str(n))
+add=0
+for i in range(len(l)):
+    add+=int(l[i])**3
+if add == n:
+    print (str(n) +" is a armstrong number\n")
+else:
+    print (str(n)+ " is not a armstrong number\n")
+
